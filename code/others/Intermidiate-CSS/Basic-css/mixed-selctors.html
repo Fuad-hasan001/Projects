@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+    .green{
+        color: green;
+    }
+    .green-bg{
+        background-color: greenyellow;
+    }
+    p, h3{ /*common uses*/
+        color: blueviolet;
+    }
+    /* h3{
+        color: blueviolet;
+    } */
+    /*  */
+    .tree{
+        color: red;
+    }
+    ol>li{
+        font-weight: 700;
+    }
+    li.tree{
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+    </style>
+</head>
+<body>
+
+    <p>span tag: uses for specific portion or single purpose apply css style
+        and div tag:  multiple uses apply css style
+    </p>
+
+    <h2>Mixed selectors: </h2>
+    <p>CSS: <span class="green">cascading style sheet</span></p>
+    <p>CSS: cascading style sheet</p>
+    <p>CSS: cascading style sheet</p>
+    <p>CSS: cascading style sheet</p>
+    <p>putin president in Russia</p>
+    <p>Barak obama former president in the usa</p>
+    <p>Trump is the opponent of current president</p>
+
+    <h2 class="tree">css apply ways</h2>
+    <ol>
+        <li class="tree">inline</li>
+        <li>internal or <span class="green">embedded</span><li>
+        <li>external</li>
+    </ol>
+
+    <div class="green-bg">
+        <!-- this is my first blog -->
+        <h3 class="tree">This is my blog</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas accusamus earum fuga veritatis reiciendis, quo magnam quae facilis quisquam qui dolorum, exercitationem, doloribus harum alias praesentium dicta nisi laborum. Dolorum vitae temporibus, rem animi quam aspernatur magnam possimus asperiores iusto sunt corporis maxime facilis quia. Incidunt optio nemo beatae libero!</p>
+
+        <br>
+
+        <p class="tree">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime doloribus blanditiis sit error, deserunt reiciendis eum corrupti ex soluta at recusandae earum dolor est quasi maiores molestiae distinctio corporis quibusdam dolores incidunt quas alias veniam? Voluptatem asperiores culpa corrupti nostrum reprehenderit suscipit harum magnam voluptates, voluptatibus deleniti ad officiis adipisci a vitae, veniam aliquam commodi ipsam dignissimos? Pariatur, illum consequatur.</p>
+    </div>
+
+    
+</body>
+</html>

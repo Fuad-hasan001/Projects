@@ -1,0 +1,30 @@
+label{
+    display: block;
+}
+.blogs h2{
+    text-align: center;
+
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid blue;
+    padding: 10px;
+}
+p{
+    font-size: 25px;
+    color: white;
+    background-color: orangered;
+    width: 75%;
+    height: 100px;
+    text-align: center;
+    
+}
+li{
+    color: goldenrod;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

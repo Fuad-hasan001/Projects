@@ -1,0 +1,42 @@
+// Declare variables 
+$primary-color:blue;
+
+// variable uses: 
+h1{
+    color: $primary-color;
+}
+
+p{
+    background-color: $primary-color;
+    color: white;
+    margin: 5px;
+    padding: 15px;
+}
+
+// ul{
+//     border: 2px solid $primary-color;
+// }
+// alternative: 
+nav{
+    ul{
+        border: 2px solid $primary-color;
+        li{
+            color: purple;
+            a{
+                text-decoration: line-through;
+            }
+        }
+    }
+}
+
+button{
+    border: 1px solid red;
+    background-color: maroon;
+
+    &:hover{
+
+    }
+}
+
+
+

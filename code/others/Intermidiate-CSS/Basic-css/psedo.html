@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/psedo.css">
+    <title>Document</title>
+    <style>
+        h1{
+            color: royalblue;
+        }
+
+        h1:hover{
+            color: orange;
+            background-color: green;
+            font-size: 50px;
+            font-weight: 700;
+
+        }
+        .middle-person:focus{
+            color: blue;
+            font-weight: 700;
+        }
+        a:visited{
+            color: red;
+        }
+
+        /* ----------------------------- */
+        li:first-child{
+            color: goldenrod;
+        }
+
+        li:last-child{
+            background-color: cornflowerblue;
+        }
+
+        li:nth-child(n){
+           color: red;
+        }
+        li:nth-child(2n){
+            background-color: aqua;
+        }
+
+        li:nth-child(2n+1){
+            color: white;
+            background-color: orangered;
+        }
+
+        h3::before{
+            content: 'Hello ';
+        }
+        h3::after{
+            content: 'gello';
+            background-color: blue;
+        }
+        .special::after{
+            content: 'koi';
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+
+    <a href="https://brandmark.io/">brand</a>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.startech.com.bd/accessories/mouse"> star tech</a>
+    <br>
+
+    <ul>
+        <li>First Child</li>
+        <li>Green diary</li>
+        <li>notes</li>
+        <li>note-book</li>
+        <li>book</li>
+        <li>Dictionary</li>
+        <li>Green diary</li>
+        <li>notes</li>
+        <li>note-book</li>
+        <li>Last Child</li>
+    </ul>
+<br>
+<h3>middle size header -1</h3>
+<h3 class="special">middle size header -2</h3>
+<h3>middle size header -3</h3>
+<h3 class="special">middle size header -4</h3>
+<h3>middle size header -5</h3>
+<h3 class="special">middle size header -6</h3>
+</body>
+</html>

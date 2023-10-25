@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Dom</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my Dom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officiis velit eius minima sit tenetur neque quo minus veniam quia quod fuga perspiciatis, doloremque deserunt beatae repellat, ipsum repellendus facilis.</p>
+    </header>
+    <main id="main-content">
+        <section>
+            <h1>My Awsome Dom De baba</h1>
+            <ul>
+                <li>jalali Set</li>
+                <li>jalali Set</li>
+                <li>jalali Set</li>
+            </ul>
+        </section >
+        <section class="fruits-container">
+            <h1 id="fruits-title">Fruits I like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+        <section id="places-container">
+            <h1 id="places-title">Places I like to visit</h1>
+            <ul id="places-list">
+                <li class="important-places">Sundornban</li>
+                <li class="important-places">bandorban</li>
+                <li class="important-places">Katabon</li>
+                <li>Salbon</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="js/append.js"></script>
+    <!-- <script src="js/dom.js"></script>
+    <script src="js/styleln.js"></script> -->
+    <script>
+        // const student = {
+        //     name: 'ABul',
+        //     id: 11,
+        //     study: function (time){
+        //         console.log(time, 'study kortese');
+        //     }
+        // }
+        // console.log('adding js inside the html file');
+
+        // option-1: getElementByTagName
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        for (const li of liCollection) {
+            // console.log(li);
+            // console.log(h1.inner);
+
+        }
+        // ---------------------------
+
+        // option-2: getElementById
+            const fruitsTitle = document.getElementById('fruits-title');
+            fruitsTitle.innerText = 'fruits changed by js' ;
+            // console.log(fruitsTitle);
+            // console.log(fruitsTitle.innerText);
+
+        //option-3: getElementByClassName
+        const places = document.getElementsByClassName('important-places');
+        // console.log(places);
+
+        for(const place of places){
+            // console.log(place.innerText);
+        }
+
+        // option-4: querySelector
+
+        // querySelectorAll
+        const someLi = document.querySelectorAll('.fruits-container li')
+        // console.log(someLi); 
+        for(const li of someLi){
+            // console.log(li.innerText);
+        }
+
+
+    </script>
+</body>
+
+</html>

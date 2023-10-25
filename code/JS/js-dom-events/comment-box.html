@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Please add your comment</h1>
+
+    <div id="comment-conainer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore tenetur, distinctio veniam consequuntur,
+            facilis deserunt non sapiente corrupti esse error odio, modi vero quos voluptatibus cumque inventore qui
+            culpa repellendus. Explicabo, odio et. Illum ducimus ab vero tenetur tempore cumque culpa ad blanditiis,
+            quasi, eligendi, laboriosam cum modi voluptatem? Ipsam.</p>
+
+
+        <p>Veniam accusantium repellendus nesciunt optio neque harum. Atque doloribus ipsa eligendi dolorum. Dolor
+            provident excepturi rerum ipsa numquam labore nulla enim! Quis esse similique deleniti tenetur nulla
+            quisquam aspernatur quos accusantium recusandae animi, sequi quia expedita cupiditate pariatur repellat
+            nobis mollitia error quasi possimus delectus fuga nihil atque facere. Non!</p>
+
+
+        <p>Eaque laudantium perspiciatis, molestiae beatae aliquam sapiente at ullam quidem, debitis explicabo tempora?
+            Sed, eos, illo asperiores eligendi natus quasi repellat voluptatem deleniti, nobis reprehenderit officia qui
+            eius ducimus perspiciatis tempore vel praesentium. Consectetur neque architecto sed ea saepe laborum nulla
+            dolor omnis sequi, voluptatum, quos aliquam reiciendis! Facere, est!</p>
+    </div>
+    <div>
+        <textarea name="" id="new-comment" cols="60" rows="5"></textarea>
+        <br>
+        <button id="btn-post">post</button>
+    </div>
+
+    <!-- 
+        step1: click button
+        step2: take value or text from textarea inputField
+        step3:  add korbo 
+        step2: clear text-areabox
+     -->
+
+     <!-- ---------------------------------- -->
+     <script>
+        // step-1: add event listener to the post button
+        document.getElementById('btn-post').addEventListener('click', function(){
+            // console.log('button clicked');
+            // step-2: get the comment inside the text area
+            const commentBox = document.getElementById('new-comment');
+            const newComment = commentBox.value;
+            
+            // step-3: set the comment inside the comment container
+            // 1. get the comment container
+            // 2. create a new element (p tag)
+            // 3. set the text of the comment as innerText of the p tag
+            // 4. add the p tag using appenChild
+            const commentContainer = document.getElementById('comment-conainer');
+            const p = document.createElement('p');
+            p.innerText = newComment;
+            commentContainer.appendChild(p);
+
+            // step-4: clear the text-area
+            commentBox.value = '' ;
+        })
+     </script>
+</body>
+
+</html>

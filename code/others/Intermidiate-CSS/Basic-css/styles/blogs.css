@@ -1,0 +1,45 @@
+.header{
+    height: 200px;
+    /* background-image: url('babycat.jpg'); */
+    /* background-image: url('../catgroups.jpg'); */
+    /* background-image: url('../images/home.png'); */
+    background-image: url('../images/developes/developer.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: yellow;
+    background-color: grey;
+    background-blend-mode:multiply;
+    /* background-position: center; */
+}
+.blog{
+    background-color: purple;
+    box-shadow: 10px 10px 10px green;
+}
+h3{
+    color: magenta;
+    text-decoration: underline wavy green;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+
+}
+
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+span{
+    border: 5px solid purple;
+    height:200px;
+    width: 100px;
+    margin-top: 50px;
+    /* display: block; */
+    /* display: inline-block; */
+    display: none;
+}

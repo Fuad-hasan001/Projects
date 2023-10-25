@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6b2fc6e3f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+
+<body>
+    <header style="background: black;">
+        <section class="nav-section">
+            <!-- <div class="logo">Soft Landing</div> -->
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+    
+            <nav class="nav-bar">
+                <ul class="">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Recent Work</a></li>
+                    <li><a href="#">Get In Touch</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul class="social-container">
+                    <li><a href=""><i class="fa-brands fa-facebook-f fa-fade" style="color: #fd6e0a;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-fade" style="color: #fd6e0a;"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-x-twitter fa-fade" style="color: #fd6e0a;"></i></a></li>
+                    
+                </ul>
+            </div>
+    
+        </section>
+
+        <section id="profile">
+            <div id="profile-intro">
+                <h1>MD Fuad Hasan</h1>
+                <p>Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. </p>
+                <a href="">
+                    <button class="btn-profile">Let's get Started <span> > </span></button>
+                </a>
+            </div>
+
+            <div id="profile-photo">
+                <img class="img-profile" src="images/person1.png" alt="">
+            </div>
+
+        </section>
+
+        <section>
+            <div id="work-container">
+                <ul class="work-with">
+                    <li><img src="icons/clickup.png" alt=""></li>
+                    <li><img src="icons/dropbox.png" alt=""></li>
+                    <li><img src="icons/jelastic.png" alt=""></li>
+                    <li><img src="icons/stripe.png" alt=""></li>
+                    <li><img src="icons/joomla.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+    </header>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>

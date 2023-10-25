@@ -1,0 +1,25 @@
+h1 {
+  color: blue;
+}
+
+p {
+  background-color: blue;
+  color: white;
+  margin: 5px;
+  padding: 15px;
+}
+
+nav ul {
+  border: 2px solid blue;
+}
+nav ul li {
+  color: purple;
+}
+nav ul li a {
+  text-decoration: line-through;
+}
+
+button {
+  border: 1px solid red;
+  background-color: maroon;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Hunter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my phone Hunter</h1>
+    </header>
+    <main class="container">
+        <!-- search container -->
+        <section>
+            <div class="mb-3 w-50">
+                <input type="search" class="form-control" id="search-field" aria-describedby="emailHelp"
+                    placeholder="Search your phone">
+                <div id="btn-search" class="btn btn-primary">Search</div>
+            </div>
+        </section>
+        <!-- display search result -->
+        <section>
+            <div id="phone-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+            </div>
+        <!-- if according to searchText data not found -->
+            <div id="no-found-message" class="mt-4 d-none">
+                <h3 class="text-warning">No Data Found. <br> Please try again </h3>
+            </div>
+
+        <!-- show all btn -->
+            <!-- <div id="show-all" class="text-center ">
+                <div id="btn-showAll" class="btn btn-primary">Show All</div>
+            </div> -->
+            <div id="show-all" class="text-center d-none">
+                <button id="btn-showAll" class="btn btn-primary">Show All
+                </button>
+            </div>
+            
+        </section>
+
+        <!-- Loader -->
+        <section id="loader" class="d-none">
+            <div style="height: 400px;" class="d-flex border  justify-content-center align-items-center ">
+                <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="phonehunter.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@500&display=swap');
+
+.home {
+    background: #FFF;
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    padding: 100px;
+}
+
+.advertise {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 40px;
+}
+
+.home .advertise h6 {
+    color: #F90;
+
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.026px;
+}
+
+.home .advertise h1 {
+    color: #1C2B35;
+
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+    margin-bottom: 0;
+}
+
+.home .advertise h4 {
+    color: #2A414F;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.06px;
+}
+
+.btn-shop-now {
+    background: #F90;
+    color: black;
+
+    padding: 18px 22px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+/* -------++++----- */
+
+.img-home {
+    height: 600px;
+    width: 451px;
+    flex-shrink: 0;
+    border-radius: 8px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    
+    margin: 0 auto;
+
+
+    background: url(<path-to-image>), #FFE0B3 50% / cover no-repeat;
+}
+
+.home img {
+    width: 100%;
+}
+/* ------------------------------ */
