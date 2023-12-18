@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Basic Membership",
+      "price": "$30 per month",
+      "description": "Access to basic gym facilities and equipment.",
+      "features": [
+        "Access to cardio equipment",
+        "Access to strength training equipment",
+        "Locker room access",
+        "24/7 gym access"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Premium Membership",
+      "price": "$50 per month",
+      "description": "Access to premium gym facilities, equipment, and group fitness classes.",
+      "features": [
+        "Access to cardio equipment",
+        "Access to strength training equipment",
+        "Access to premium facilities",
+        "Unlimited group fitness classes",
+        "Locker room access",
+        "24/7 gym access"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "VIP Membership",
+      "price": "$80 per month",
+      "description": "Access to all gym facilities, equipment, group fitness classes, and personal training sessions.",
+      "features": [
+        "Access to cardio equipment",
+        "Access to strength training equipment",
+        "Access to all gym facilities",
+        "Unlimited group fitness classes",
+        "Locker room access",
+        "24/7 gym access",
+        "Personal training sessions (2 per month)"
+      ]
+    }
+  ]
+  

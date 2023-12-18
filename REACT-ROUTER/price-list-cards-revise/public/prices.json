@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "Basic MemberShip",
+      "price": "$30",
+      "features": [
+        "Basic access",
+        "Equipment usage",
+        "Locker room access",
+        "24/7 gym access",
+        "Free Wi-Fi"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Premium MemberShip",
+      "price": "$50",
+      "features": [
+        "Premium access",
+        "Equipment usage",
+        "Group classes",
+        "Locker room access",
+        "24/7 gym access",
+        "Sauna and steam room access",
+        "Free Wi-Fi"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "VIP MemberShip", 
+      "price": "$80",
+      "features": [
+        "Full access",
+        "Equipment usage",
+        "Group classes",
+        "2 personal training sessions",
+        "Locker room access",
+        "24/7 gym access",
+        "Sauna and steam room access",
+        "Free Wi-Fi",
+        "Nutrition counseling"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Student MemberShip",
+      "price": "$20",
+      "features": [
+        "Access to basic facilities",
+        "Equipment usage",
+        "Locker room access",
+        "Free Wi-Fi",
+        "Student ID required"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Senior MemberShip",
+      "price": "$25",
+      "features": [
+        "Access to basic facilities",
+        "Equipment usage",
+        "Locker room access",
+        "Free Wi-Fi",
+        "Ages 65+ only"
+      ]
+    }
+  ]
+  

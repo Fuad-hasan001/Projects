@@ -1,0 +1,19 @@
+.tShirt-container{
+    /* width: 250px; */
+
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.tShirt-container img{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.tShirt-info{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.486);
+}
